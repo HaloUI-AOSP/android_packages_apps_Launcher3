@@ -17,6 +17,10 @@
     <!-- Miscellaneous -->
     <bool name="config_largeHeap">false</bool>
 
+    <!-- Burn-in protection for gesture navigation handle -->
+    <bool name="config_enableBurnInProtection">true</bool>
+    <integer name="config_burnInProtectionShiftInterval">60</integer>
+
     <!-- A string pointer to the original app name string. This allows derived projects to
      easily override the app name without providing all translations -->
     <string name="derived_app_name" translatable="false">@string/lineageos_app_name</string>
